@@ -1,6 +1,6 @@
 .root {
-    background-color: rgb(var(--venia-global-color-gray));
-    box-shadow: 0 1px rgb(var(--venia-global-color-border));
+    background-color: rgb(var(--venia-global-color-gray-50));
+    box-shadow: 0 2px rgb(var(--venia-global-color-gray-100));
     display: grid;
     grid-auto-columns: 100%;
     grid-auto-flow: row;
@@ -29,7 +29,7 @@
     grid-template-rows: 3rem;
     justify-items: center;
     min-height: 3.5rem;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 @media (min-width: 641px) {
@@ -63,7 +63,7 @@
 
 @media (min-width: 641px) {
     .secondaryActions {
-        column-gap: 1.25rem;
+        column-gap: 1rem;
     }
 }
 
