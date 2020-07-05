@@ -87,8 +87,9 @@
     "https-proxy-agent": "~2.2.3"
   },
   "engines": {
-    "node": "12.18.2",
-    "yarn": "6.14.5"
+    "node": ">=12.18.2",
+    "yarn": ">=1.12.0",
+    "npm": "6.14.5"
   },
   "bundlesize": [
     {
