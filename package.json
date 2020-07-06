@@ -48,8 +48,7 @@
     "validate-queries": "yarn venia run validate-queries",
     "venia": "yarn workspace @magento/venia-concept",
     "watch:all": "node scripts/watch-all.js",
-    "watch:venia": "yarn venia run watch",
-    "start": "node app.js"
+    "watch:venia": "yarn run watch:venia"
   },
   "devDependencies": {
     "@magento/eslint-config": "~1.5.0",
